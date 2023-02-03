@@ -1,0 +1,18 @@
+.app__searchbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    
+    input {
+        padding: 1rem;
+        border-radius: 25px;
+        border: 1px none;
+        outline: none;
+        height: 2.2rem;
+        width: 50vw;
+        background-color: var(--primary-color);
+    }
+    
+}
