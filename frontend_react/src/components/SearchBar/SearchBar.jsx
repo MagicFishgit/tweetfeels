@@ -4,7 +4,9 @@ import './SearchBar.scss';
 
 const SearchBar = () => {
     return (
-        <div><h1>Searchbar Here</h1></div>
+        <>
+         <div><h1>Searchbar Here</h1></div>
+        </>
     )
 }
 

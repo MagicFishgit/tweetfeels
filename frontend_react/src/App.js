@@ -3,12 +3,15 @@
 import { KeyWords, SearchBar, Sentiment, TweetFeed } from './components';
 
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <SearchBar />
+      <TweetFeed />
+      <KeyWords />
+      <Sentiment />
     </div>
   );
 }
